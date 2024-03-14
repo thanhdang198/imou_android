@@ -1,3 +1,3 @@
 install: 
- - FILE="-Dfile=lcopen.aar" 
+ - FILE="-Dfile=https://github.com/thanhdang198/imou_android/raw/main/lcopen.aar?download=" 
  - mvn install:install-file $FILE -DgroupId=com.lechange.opensdk.imou.camera -DartifactId=imou-camera -Dversion=1.0.0 -Dpackaging=aar -DpomFile=pom.xml
